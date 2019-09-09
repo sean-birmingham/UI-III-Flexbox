@@ -71,7 +71,7 @@ h1, h2, h3, h4, h5 {
 
 
 .navigation {
-	border: 2px solid black;
+	/* border: 2px solid black; */
 	margin: 20px;
 	width: 100%;
   display: flex;
@@ -80,43 +80,45 @@ h1, h2, h3, h4, h5 {
 }
 
 .navigation a {
-	border: 2px solid green;
+	/* border: 2px solid green; */
 	text-decoration: none;
 	color: lightgray;
 }
 
-/*
+
 header {
-	border: 2px solid black;
-	margin: 20px;
-	width: 90%;
-	display: inline-block;
+	/* border: 2px solid black; */
+  margin: 90px 20px 20px 20px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 h1 {
-	border: 2px solid blue;
-	margin: 20px;
-	width: 40%;
+  /* border: 2px solid blue; */
+  margin-top: 20px;
+  margin-left: 50px;
+  padding: 20px;
 	text-align: center;
-	font-size: 80px;
-	vertical-align: top;
-	display: inline-block;
+  font-size: 90px;
 }
 
 button {
 	border: 1px solid black;
-	background: white;
-	margin-bottom: 50px;
-	padding: 5px 32px;
-	font-family: 'Titillium Web', sans-serif;
+  background: white;
+  vertical-align: middle;
+	padding: 3px 45px;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 16px;
 }
 
 header img {
-	border: 2px solid purple;
-	display: inline-block;
-	margin-left: 90px;
+  margin-bottom: 20px;
 }
 
+
+/*
 .top-content {
 	border: 2px solid black;
 	min-height: 70px;
