@@ -155,22 +155,20 @@ h5 {
 }
 
 .navigation {
-  /* border: 2px solid black; */
-  margin: 20px;
-  width: 100%;
+  margin: 2% 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
 .navigation a {
-  /* border: 2px solid green; */
   text-decoration: none;
   color: lightgray;
+  font-weight: bold;
 }
 
 header {
-  margin-bottom: 20px;
+  margin-bottom: 5%;
 }
 
 h1 {
@@ -185,24 +183,26 @@ hr {
 .main {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-between;
+  margin: 2% 0;
 }
 
 .main .main-item {
   border: 1px solid black;
   background: #f0f0f0;
-  width: 400px;
-  height: 200px;
-  margin: 20px 20px 20px 0px;
-  padding: 10px;
+  width: 47%;
+  margin: 2% 0;
+  padding: 2%;
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .main-item button {
   border: 1px solid black;
   border-radius: 5px;
-  padding: 3px 35px;
+  padding: 2% 10%;
+  margin-top: 5%;
 }
 
 ul {
@@ -212,23 +212,26 @@ ul {
 }
 
 .bottem-content {
-  width: 100%;
-  margin-top: 10px;
   display: flex;
+  justify-content: space-between;
 }
 
 .bottem-item {
-  width: 50%;
+  width: 45%;
   display: flex;
   flex-wrap: wrap;
-  margin-right: 10px;
+  margin: 2% 0;
+}
+
+.bottem-item h2 {
+  margin-bottom: 0;
 }
 
 .services-info-img {
-  width: 50%;
+  margin: 2% 0;
 }
 
 footer {
+  margin: 5% 0;
   text-align: center;
-  margin-top: 50px;
 }
