@@ -167,7 +167,7 @@ h5 {
 }
 
 .header-container {
-  margin-top: 60px;
+  margin: 10% 0;
   display: flex;
   justify-content: center;
 }
@@ -199,45 +199,32 @@ hr {
   border-color: black;
 }
 
-.top-container {
-  width: 100%;
-  margin: 20px;
+.top-row {
+  margin: 5% 0;
   display: flex;
-  justify-content: center;
 }
 
-.top-container .top-container-item {
-  /* border: 2px solid black; */
-  margin: 5px;
-  width: 450px;
+.top-row .top-row-item {
+  width: 50%;
 }
 
-.middle-img {
+.bottom-row {
+  margin: 5% 0;
   display: flex;
-  justify-content: center;
 }
 
-.bottom-container {
-  width: 100%;
-  margin: 20px;
-  display: flex;
-  justify-content: center;
-}
-
-.bottom-container .bottom-container-item {
-  width: 300px;
-  margin: 5px;
-  padding: 5px;
+.bottom-row .bottom-row-item {
+  width: 50%;
+  margin-right: 1%;
 }
 
 .contact {
-  margin: 20px;
+  margin-top: 5%;
 }
 
 footer {
   /* border: 2px solid black; */
   display: flex;
   justify-content: center;
-  padding: 20px;
-  margin-bottom: 50px;
+  margin: 5% 0;
 }
